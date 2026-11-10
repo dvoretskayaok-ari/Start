@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Event Handling Task</title>
+</head>
+<body>
+  <button id="myButton">Натисни мене</button>
+
+  <script>
+    // Створіть функцію handleClick для обробки кліку по кнопці
+     function handleClick() {
+        console.log("Кнопку натиснуто");
+      } 
+      const button = document.getElementById("myButton");
+      button.addEventListener("click", handleClick);
+      
+    module.exports = handleClick; // не видаляти цей код
+  </script>
+</body>
+</html>
